@@ -137,6 +137,8 @@ return [
 
     'providers' => [
 
+        Laratrust\LaratrustServiceProvider::class,
+
         /*
          * Laravel Framework Service Providers...
          */
@@ -229,6 +231,7 @@ return [
         //add on
         'Form' =>Collective\Html\FormFacade::class,
         'Html' =>Collective\Html\HtmlFacade::class,
+        'Laratrust' =>Laratrust\LaratrustFacade::class,
     ],
 
 ];

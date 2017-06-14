@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Scripts -->
     <script>
@@ -83,6 +85,7 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <!-- <script src="/js/bootstrap.min.js"></script> -->
 
     @include('layouts.profil')
 </body>

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use App\Role;
 use App\User;
 use Validator;
 use App\Http\Controllers\Controller;
@@ -67,5 +67,8 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+        $memberRole = Role::where('name', 'member')->first();
+        $user->attachRole($memberRole);
+        return $user;
     }
 }
