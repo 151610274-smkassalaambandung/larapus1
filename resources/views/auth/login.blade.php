@@ -13,7 +13,7 @@
                         {!! Form::label('email', 'Alamat Email', ['class'=>'col-md-4 control-label']) !!}
                         <div class="col-md-6">
                             {!! Form::email('email', null, ['class'=>'form-control'])!!}
-                            {!! $errors->first('email', '<p class="help-block">:message</p>]')!!}
+                            {!! $errors->first('email', '<p class="help-block">:message</p>')!!}
                         </div>
                     </div>
                     

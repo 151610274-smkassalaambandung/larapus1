@@ -182,6 +182,7 @@ return [
         
         //add on
         Collective\Html\HtmlServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
     ],
 
     /*
