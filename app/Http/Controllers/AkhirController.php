@@ -14,7 +14,7 @@ class AkhirController extends Controller
 
    public function index()
     {
-    	$a = "Badrun";
+    	$a = "alif";
     	return "Nama Saya Adalah ".$a;
     }
 
